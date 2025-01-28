@@ -1,0 +1,37 @@
+.Dashboard {
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.Dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    background-color: #1e3674;;
+}
+
+.card {
+    background-color:#354b85;
+    border: 1px solid #354b85;
+    color: #354b85;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 380px;
+    min-width: 200px;
+    margin: 0 10px;
+    height: 50px;
+    margin-bottom: 500px;
+}
+
+
+
+@import '~bootstrap/scss/bootstrap';
